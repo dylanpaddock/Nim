@@ -1,0 +1,789 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"comp",
+				"ComputerPlayer"
+			],
+			[
+				"use",
+				"useComputer2"
+			],
+			[
+				"group",
+				"groupIndex"
+			],
+			[
+				"sele",
+				"selectedGroup"
+			],
+			[
+				"grou",
+				"groupIndex"
+			],
+			[
+				"se",
+				"SelectedList"
+			],
+			[
+				"tu",
+				"turnController"
+			],
+			[
+				"start",
+				"startTime"
+			],
+			[
+				"num",
+				"numPieces"
+			],
+			[
+				"com",
+				"computerPlayer"
+			],
+			[
+				"Tu",
+				"turnController"
+			],
+			[
+				"is",
+				"isComputer"
+			],
+			[
+				"st",
+				"stonesToRemove"
+			],
+			[
+				"gr",
+				"groupIndex"
+			],
+			[
+				"Select",
+				"SelectStones"
+			],
+			[
+				"Group",
+				"GroupLabel"
+			],
+			[
+				"stones",
+				"stonesList"
+			],
+			[
+				"isSe",
+				"isSelected"
+			],
+			[
+				"selecte",
+				"selectedGroup"
+			],
+			[
+				"selec",
+				"selectedGroup"
+			],
+			[
+				"l",
+				"Log"
+			],
+			[
+				"Obj",
+				"ObjList"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"mou",
+				"mousePosition"
+			],
+			[
+				"scr",
+				"screenPos1"
+			],
+			[
+				"Ge",
+				"GetViewportBounds"
+			],
+			[
+				"Draw",
+				"DrawScreenRect"
+			],
+			[
+				"whiteT",
+				"_whiteTexture"
+			],
+			[
+				"Gr",
+				"Graph_node"
+			],
+			[
+				"deq",
+				"dequeueAny"
+			],
+			[
+				"animal",
+				"Animal_shelter"
+			],
+			[
+				"rem",
+				"remove_stack"
+			],
+			[
+				"S",
+				"Set_of_Stacks"
+			],
+			[
+				"palindrome_",
+				"palindrome_with_copy"
+			],
+			[
+				"get_",
+				"get_data"
+			],
+			[
+				"curre",
+				"current_copy"
+			],
+			[
+				"curr",
+				"current_copy"
+			],
+			[
+				"a",
+				"add_to_tail"
+			],
+			[
+				"list",
+				"Listnode"
+			],
+			[
+				"ne",
+				"next_node"
+			],
+			[
+				"next",
+				"get_next"
+			],
+			[
+				"n",
+				"next_node"
+			],
+			[
+				"None",
+				"new_node"
+			],
+			[
+				"r",
+				"r"
+			],
+			[
+				"char",
+				"char"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Assets/Scripts/UnitSelector.cs",
+			"settings":
+			{
+				"buffer_size": 7625,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Scripts/Turns.cs",
+			"settings":
+			{
+				"buffer_size": 2009,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Scripts/Pieces.cs",
+			"settings":
+			{
+				"buffer_size": 2490,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Scripts/ComputerPlayer.cs",
+			"settings":
+			{
+				"buffer_size": 2849,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 467.0,
+		"last_filter": "package control",
+		"selected_items":
+		[
+			[
+				"package control",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 509.0
+	},
+	"console":
+	{
+		"height": 260.0,
+		"history":
+		[
+			"UnitSelector.cs",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"exit()",
+			"2+2",
+			"dir()",
+			"dir",
+			"python",
+			"py -3",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Dylan/Documents/Nim",
+		"/C/Users/Dylan/Documents/Nim/Assets/Scripts"
+	],
+	"file_history":
+	[
+		"/C/Users/Dylan/Documents/Nim/todo",
+		"/C/Users/Dylan/Documents/Nim/Assets/Scripts/Group.cs",
+		"/C/Users/Dylan/Documents/Nim/Assets/Scripts/Turns.cs",
+		"/C/Users/Dylan/Documents/Nim/Assets/Scripts/Pieces.cs",
+		"/C/Users/Dylan/Documents/Nim/Assets/Scripts/Menu.cs",
+		"/C/Users/Dylan/Documents/Nim/Assets/Scripts/GroupLabel.cs",
+		"/C/Users/Dylan/Documents/Nim/Assets/Scripts/Stone.cs",
+		"/C/Users/Dylan/Documents/Nim/Assets/Scripts/Utils.cs",
+		"/C/Users/Dylan/Documents/Nim/Assets/Scripts/UnitSelector.cs",
+		"/C/Users/Dylan/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/Dylan/Documents/Pong/Nim.sublime-project",
+		"/C/Users/Dylan/Documents/Formulaire D'Information Personnelle Paddock.txt",
+		"/C/Users/Dylan/Documents/Formulaire D'Information Personnelle.txt",
+		"/C/Users/Dylan/Documents/Personal Information Form.txt",
+		"/C/Users/Dylan/Downloads/Class Notes for Chris Porter",
+		"/C/Users/Dylan/Documents/Maple letter for new teachers 2.txt",
+		"/C/Users/Dylan/Documents/Maple letter for new teachers.txt",
+		"/C/Users/Dylan/Documents/cs/challenges/cci/c3/structures.py",
+		"/C/Users/Dylan/Documents/cs/challenges/cci/c3/bintree_lists.py",
+		"/C/Users/Dylan/Documents/Pong/Assets/NewBehaviourScript.cs",
+		"/C/Users/Dylan/Documents/cs/challenges/cci/c3/binary_search_tree.py",
+		"/C/Users/Dylan/Documents/cs/challenges/cci/c3/animal_shelter.py",
+		"/C/Users/Dylan/Documents/cs/challenges/cci/c2/llist.py",
+		"/C/Users/Dylan/Documents/cs/challenges/cci/c3/sort_stack.py",
+		"/C/Users/Dylan/Documents/cs/challenges/cci/c3/set_of_stacks_3-3.py",
+		"/C/Users/Dylan/Documents/cs/challenges/cci/c3/queue_from_stacks.py",
+		"/C/Users/Dylan/Documents/cs/challenges/cracking the coding interview/llist.py",
+		"/C/Users/Dylan/Documents/cs/challenges/cracking the coding interview/intersection_2-7.py",
+		"/C/Users/Dylan/Documents/cs/challenges/cracking the coding interview/loop_detection_2-8.py",
+		"/C/Users/Dylan/Documents/cs/challenges/cracking the coding interview/palindrome_2-6.py",
+		"/C/Users/Dylan/Documents/cs/challenges/cracking the coding interview/sum_list_2-5.py",
+		"/C/Users/Dylan/Documents/cs/challenges/cracking the coding interview/partition_2-4.py",
+		"/C/Users/Dylan/Documents/cs/challenges/cracking the coding interview/k_to_last_2-2.py",
+		"/C/Users/Dylan/Documents/cs/challenges/cracking the coding interview/remove_dups_2-1.py",
+		"/C/Users/Dylan/Documents/cs/challenges/cracking the coding interview/debarati scholarship application.txt",
+		"/C/Users/Dylan/Documents/cs/challenges/cracking the coding interview/string_rotation_1-9.py",
+		"/C/Users/Dylan/Documents/cs/challenges/cracking the coding interview/zero_matrix_1-8.py",
+		"/C/Users/Dylan/Desktop/stream.bat",
+		"/C/Users/Dylan/Documents/cs/challenges/cracking the coding interview/rotate_image_1-7.py",
+		"/C/Users/Dylan/AppData/Roaming/streamlink/streamlinkrc",
+		"/C/Users/Dylan/Documents/cs/challenges/cracking the coding interview/palindrome_1-4.py",
+		"/C/Users/Dylan/Documents/cs/challenges/cracking the coding interview/compression_1-6.py",
+		"/C/Users/Dylan/Documents/cs/challenges/cracking the coding interview/edit_distance_1-5.py",
+		"/C/Users/Dylan/Documents/cs/challenges/cracking the coding interview/urlify_1-3.py",
+		"/C/Users/Dylan/Documents/cs/challenges/cracking the coding interview/unique_chars_in_string_1-1.py",
+		"/C/Users/Dylan/Documents/cs/challenges/cracking the coding interview/string_permutations_1-2.py",
+		"/C/Users/Dylan/Documents/cs/challenges/cracking the coding interview/unique_chars_in_string_1.1.py",
+		"/C/Users/Dylan/Documents/Mariko Takayasu",
+		"/C/Users/Dylan/Documents/cs/challenges/pythonchallenge/3.py",
+		"/C/Users/Dylan/Documents/cs/challenges/pythonchallenge/2.py",
+		"/C/Users/Dylan/Downloads/torrents/www.torrenting.com - American.Gods.S01E02.720p.WEBRip.X264-DEFLATE/Torrent Downloaded From www.torrenting.com.txt",
+		"/C/Users/Dylan/Documents/cs/challenges/dailychallenge/4easy_random_password_generator.py",
+		"/C/Users/Dylan/Documents/cs/challenges/dailychallenge/3easy_caesar_cipher.py",
+		"/C/Users/Dylan/Documents/cs/challenges/pythonchallenge/2",
+		"/C/Users/Dylan/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Dylan/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Dylan/Documents/cs/challenges/dailychallenge/4easy_random_password_generator",
+		"/C/Users/Dylan/Documents/cs/challenges/dailychallenge/3easy_caesar_cipher.py4",
+		"/C/Users/Dylan/Documents/crazy food thing ideas",
+		"/C/Users/Dylan/Documents/Journal writings/Mindfullness in Memory",
+		"/C/Users/Dylan/Desktop/nativelog.txt",
+		"/C/Users/Dylan/Documents/resume/job search spreadsheet.txt",
+		"/C/Users/Dylan/Documents/resume/Application materials/cover letter.txt",
+		"/C/Users/Dylan/Downloads/bus directions.txt",
+		"/C/Users/Dylan/AppData/Roaming/Skype/shared.xml",
+		"/C/Users/Dylan/AppData/Roaming/Skype/dylan_paddock/config.xml",
+		"/C/Users/Dylan/Documents/work/assessment for elementary school.tex",
+		"/C/Users/Dylan/Documents/work/commandline_script_test.py",
+		"/C/Users/Dylan/Documents/travel/japan/dinner plan",
+		"/C/Users/Dylan/Documents/work/ort-poc.tex",
+		"/C/Users/Dylan/Documents/work/Seyla/seylahw3.tex",
+		"/C/Users/Dylan/Documents/work/Seyla/math notes",
+		"/C/Users/Dylan/Documents/work/Seyla/seylahw7.tex",
+		"/C/Users/Dylan/Documents/work/Seyla/seylahw8.tex",
+		"/C/Users/Dylan/Documents/work/Seyla/seylahw5.tex",
+		"/C/Users/Dylan/Documents/to do list",
+		"/C/Users/Dylan/Documents/work/discussion topics",
+		"/C/Users/Dylan/Documents/work/Seyla/seylahw6.tex",
+		"/C/Users/Dylan/Documents/work/prep.txt",
+		"/C/Users/Dylan/Documents/work/Seyla/seylahw4.tex",
+		"/C/Users/Dylan/Documents/resume/templates/alexander.tex",
+		"/C/Users/Dylan/Downloads/taiyotaiyonew.tex",
+		"/C/Users/Dylan/Documents/work/my reflections/boring",
+		"/C/Users/Dylan/Documents/work/kye math mw/times",
+		"/C/Users/Dylan/Documents/travel/japan/places",
+		"/C/Users/Dylan/Documents/travel/japan/notes",
+		"/C/Users/Dylan/Documents/travel/japan/kyoto plans",
+		"/C/Users/Dylan/Documents/travel/japan/star bar ginza",
+		"/C/Users/Dylan/Documents/cs/nand2tetris/nand2tetris/projects/02/ALU-nostat.tst",
+		"/C/Users/Dylan/Documents/cs/challenges/codekata/binarysearch.py",
+		"/C/Users/Dylan/Documents/resume/japan travel estimate",
+		"/C/Users/Dylan/Documents/daily log",
+		"/C/Users/Dylan/.ssh/id_rsa.pub",
+		"/C/Users/Dylan/Documents/travel/japan",
+		"/C/Users/Dylan/Documents/cs/nand2tetris/nand2tetris/projects/05/CPU.hdl",
+		"/C/Users/Dylan/Documents/cs/nand2tetris/nand2tetris/projects/05/Memory.hdl",
+		"/C/Users/Dylan/Documents/cs/nand2tetris/nand2tetris/projects/03/b/RAM4K.hdl",
+		"/C/Users/Dylan/Documents/cs/nand2tetris/nand2tetris/projects/03/b/RAM16K.hdl",
+		"/C/Users/Dylan/Documents/cs/nand2tetris/nand2tetris/projects/04/mult/Mult.asm",
+		"/C/Users/Dylan/Documents/cs/nand2tetris/nand2tetris/projects/04/fill/Fill.asm",
+		"/C/Users/Dylan/Documents/cs/nand2tetris/nand2tetris/projects/03/a/PC.hdl",
+		"/C/Users/Dylan/Documents/cs/nand2tetris/nand2tetris/projects/03/a/RAM64.hdl",
+		"/C/Users/Dylan/Documents/cs/nand2tetris/nand2tetris/projects/03/b/RAM512.hdl",
+		"/C/Users/Dylan/Documents/cs/nand2tetris/nand2tetris/projects/03/a/RAM8.hdl",
+		"/C/Users/Dylan/Documents/cs/nand2tetris/nand2tetris/projects/03/a/Register.hdl",
+		"/C/Users/Dylan/Documents/cs/nand2tetris/nand2tetris/projects/03/a/Bit.hdl",
+		"/C/Users/Dylan/Documents/cs/nand2tetris/nand2tetris/projects/02/ALU.hdl",
+		"/C/Users/Dylan/Documents/cs/nand2tetris/nand2tetris/projects/02/FirstBit.hdl",
+		"/C/Users/Dylan/Documents/cs/nand2tetris/nand2tetris/projects/02/Or16Way.hdl",
+		"/C/Users/Dylan/Documents/cs/nand2tetris/nand2tetris/projects/02/ALU-nostat.out",
+		"/C/Users/Dylan/Documents/cs/nand2tetris/nand2tetris/projects/01/And.hdl",
+		"/C/Users/Dylan/Documents/cs/nand2tetris/nand2tetris/projects/02/Add16.hdl",
+		"/C/Users/Dylan/Documents/cs/nand2tetris/nand2tetris/projects/02/HalfAdder.hdl",
+		"/C/Users/Dylan/Documents/cs/nand2tetris/nand2tetris/projects/01/Mux4Way16.hdl",
+		"/C/Users/Dylan/Documents/cs/nand2tetris/nand2tetris/projects/01/And16.hdl",
+		"/C/Users/Dylan/Documents/cs/nand2tetris/nand2tetris/projects/01/Or16.hdl",
+		"/C/Users/Dylan/Documents/cs/nand2tetris/nand2tetris/projects/01/Mux16.hdl",
+		"/C/Users/Dylan/Documents/cs/nand2tetris/nand2tetris/projects/01/Or8Way.hdl",
+		"/C/Users/Dylan/Documents/cs/nand2tetris/nand2tetris/projects/01/DMux.hdl",
+		"/C/Users/Dylan/Documents/cs/nand2tetris/nand2tetris/projects/01/Not16.hdl",
+		"/C/Users/Dylan/Documents/cs/nand2tetris/nand2tetris/projects/01/Mux.hdl",
+		"/C/Users/Dylan/Documents/cs/nand2tetris/nand2tetris/projects/01/Mux.cmp",
+		"/C/Users/Dylan/Documents/cs/nand2tetris/nand2tetris/projects/01/Or.hdl",
+		"/C/Users/Dylan/Documents/cs/nand2tetris/nand2tetris/projects/01/Xor.hdl",
+		"/C/Users/Dylan/Documents/cs/nand2tetris/nand2tetris/projects/01/Not.hdl",
+		"/C/Users/Dylan/Documents/resume/Application materials/interview questions",
+		"/C/Python27/Scripts/regetron",
+		"/C/Users/Dylan/Downloads/The Time Machine.txt"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"public",
+			"g",
+			"waiting",
+			"sizeText",
+			"selectedGroup",
+			"removeSelected",
+			"ObjList",
+			"numStones",
+			"paused",
+			"pos",
+			"i",
+			"bounds",
+			"number",
+			"originalGroup",
+			"public",
+			"Menu",
+			"obj",
+			"Text",
+			"text",
+			"gameObject",
+			"1",
+			"MousePosition",
+			"pos1",
+			"e",
+			"Elem",
+			"101",
+			"dog",
+			"Dog",
+			"dog",
+			"---\\n",
+			"peeking",
+			"print(a.peek())",
+			"end",
+			"a",
+			"c",
+			"a",
+			"20",
+			"0",
+			"20",
+			"0",
+			"llist",
+			"data",
+			"contents",
+			"pointer",
+			"bdfhklt",
+			"bdfghjklpqty",
+			"path",
+			"itemize",
+			" {",
+			"condition:",
+			"\\item",
+			"output",
+			"Japan standard time",
+			"verbatim",
+			"python",
+			"x",
+			"`\\\\ ",
+			"enter",
+			"[",
+			"set",
+			"maple",
+			"screen",
+			"r",
+			"0b0",
+			"15",
+			"=,",
+			",",
+			"Something happening in the world that ",
+			"something h",
+			"best m",
+			"t momen",
+			"rst part",
+			"best par",
+			"something I learned",
+			"daily",
+			"6..8",
+			"am",
+			"0",
+			"d",
+			"r",
+			"10",
+			"Or",
+			"13",
+			"12",
+			"11",
+			"b[",
+			"a[",
+			"[16]",
+			"10",
+			"([a-z]{6})\\1",
+			"\\b([a-z]{5})\\1\\b",
+			"\\b([a-z]{6})\\1\\b",
+			"^.{73}$",
+			"^.{69}$",
+			"^.{66}$",
+			"^.{65}$",
+			"^.{60}$",
+			"^.{72}$",
+			"\\b\\w{24}",
+			"[^c]ei",
+			"[^c]ie",
+			"cie",
+			"[bcdfghjklmnpqrstvwyz]{9}",
+			"[bcdfghjklmnpqrstvwyz]{10}",
+			"[aeiou]{6}",
+			"[qwrtpsdfghjklzxcvbnm]{6}",
+			"razz",
+			"z......z",
+			"z.......z",
+			"z........z",
+			"assertEqual",
+			"searchfun",
+			"assert_equal",
+			"helper",
+			"nutton",
+			"nutt",
+			"edwin",
+			"langedc",
+			"hellos",
+			"gems",
+			"not requi",
+			"maple",
+			"cie",
+			"sponsor",
+			"wright",
+			"sponsor",
+			"okayama",
+			"ui"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Assets/Scripts/UnitSelector.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7625,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7473,
+								7473
+							]
+						],
+						"settings":
+						{
+							"rulers":
+							[
+								120
+							],
+							"syntax": "Packages/C#/C#.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1551.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Assets/Scripts/Turns.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2009,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								632,
+								632
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C#/C#.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Assets/Scripts/Pieces.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2490,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1128,
+								1128
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C#/C#.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 440.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Assets/Scripts/ComputerPlayer.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2849,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								294,
+								294
+							]
+						],
+						"settings":
+						{
+							"rulers":
+							[
+								120
+							],
+							"syntax": "Packages/C#/C#.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Nim.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 120.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
