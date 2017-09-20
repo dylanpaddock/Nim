@@ -16,8 +16,8 @@ public class Turns : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         displayText = GetComponent<Text>();
-        opponentName.text = "Change Opponent: human";
-        state = 0;
+        opponentName.text = "Change Opponent: easy AI";
+        state = 1; //easy AI as default opponent
 	}
 
 	// Update is called once per frame

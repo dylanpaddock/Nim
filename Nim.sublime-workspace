@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"sel",
+				"selectedList"
+			],
+			[
+				"sele",
+				"selectedGroup"
+			],
+			[
+				"gro",
+				"GroupList"
+			],
+			[
+				"Selected",
+				"selectedGroup"
+			],
+			[
+				"Group",
+				"GroupList"
+			],
+			[
 				"comp",
 				"ComputerPlayer"
 			],
@@ -14,10 +34,6 @@
 			[
 				"group",
 				"groupIndex"
-			],
-			[
-				"sele",
-				"selectedGroup"
 			],
 			[
 				"grou",
@@ -62,10 +78,6 @@
 			[
 				"Select",
 				"SelectStones"
-			],
-			[
-				"Group",
-				"GroupLabel"
 			],
 			[
 				"stones",
@@ -191,7 +203,23 @@
 			"file": "Assets/Scripts/UnitSelector.cs",
 			"settings":
 			{
-				"buffer_size": 7625,
+				"buffer_size": 8059,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 538,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Assets/Scripts/Group.cs",
+			"settings":
+			{
+				"buffer_size": 1116,
 				"line_ending": "Unix"
 			}
 		},
@@ -207,7 +235,7 @@
 			"file": "Assets/Scripts/Pieces.cs",
 			"settings":
 			{
-				"buffer_size": 2490,
+				"buffer_size": 2494,
 				"line_ending": "Unix"
 			}
 		},
@@ -278,10 +306,16 @@
 	"expanded_folders":
 	[
 		"/C/Users/Dylan/Documents/Nim",
-		"/C/Users/Dylan/Documents/Nim/Assets/Scripts"
+		"/C/Users/Dylan/Documents/Nim/Assets",
+		"/C/Users/Dylan/Documents/Nim/Assets/Scripts",
+		"/C/Users/Dylan/Documents/Nim/Assets/Editor"
 	],
 	"file_history":
 	[
+		"/C/Users/Dylan/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Dylan/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Dylan/Documents/Nim/.gitignore",
+		"/C/Users/Dylan/.gitignore",
 		"/C/Users/Dylan/Documents/Nim/todo",
 		"/C/Users/Dylan/Documents/Nim/Assets/Scripts/Group.cs",
 		"/C/Users/Dylan/Documents/Nim/Assets/Scripts/Turns.cs",
@@ -336,8 +370,6 @@
 		"/C/Users/Dylan/Documents/cs/challenges/dailychallenge/4easy_random_password_generator.py",
 		"/C/Users/Dylan/Documents/cs/challenges/dailychallenge/3easy_caesar_cipher.py",
 		"/C/Users/Dylan/Documents/cs/challenges/pythonchallenge/2",
-		"/C/Users/Dylan/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/C/Users/Dylan/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/C/Users/Dylan/Documents/cs/challenges/dailychallenge/4easy_random_password_generator",
 		"/C/Users/Dylan/Documents/cs/challenges/dailychallenge/3easy_caesar_cipher.py4",
 		"/C/Users/Dylan/Documents/crazy food thing ideas",
@@ -407,9 +439,7 @@
 		"/C/Users/Dylan/Documents/cs/nand2tetris/nand2tetris/projects/01/Or.hdl",
 		"/C/Users/Dylan/Documents/cs/nand2tetris/nand2tetris/projects/01/Xor.hdl",
 		"/C/Users/Dylan/Documents/cs/nand2tetris/nand2tetris/projects/01/Not.hdl",
-		"/C/Users/Dylan/Documents/resume/Application materials/interview questions",
-		"/C/Python27/Scripts/regetron",
-		"/C/Users/Dylan/Downloads/The Time Machine.txt"
+		"/C/Users/Dylan/Documents/resume/Application materials/interview questions"
 	],
 	"find":
 	{
@@ -417,16 +447,24 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 115.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
 	{
-		"case_sensitive": true,
+		"case_sensitive": false,
 		"find_history":
 		[
+			"p.groups",
+			"GroupList",
+			"grouplist",
+			"numstones",
+			"ObjList",
+			"SelectedList",
+			"selectedGroup",
 			"public",
 			"g",
 			"waiting",
@@ -547,14 +585,7 @@
 			"langedc",
 			"hellos",
 			"gems",
-			"not requi",
-			"maple",
-			"cie",
-			"sponsor",
-			"wright",
-			"sponsor",
-			"okayama",
-			"ui"
+			"not requi"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -572,7 +603,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -581,15 +612,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7625,
+						"buffer_size": 8059,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7473,
-								7473
+								6959,
+								6959
 							]
 						],
 						"settings":
@@ -603,14 +634,72 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1551.0,
+						"translation.y": 3608.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 538,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								143,
+								143
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Theme - Afterglow/Prefs/Langs/Git.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 2,
+					"file": "Assets/Scripts/Group.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1116,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1106,
+								1106
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C#/C#.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 176.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "Assets/Scripts/Turns.cs",
 					"semi_transient": false,
 					"settings":
@@ -636,24 +725,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 4,
 					"file": "Assets/Scripts/Pieces.cs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2490,
+						"buffer_size": 2494,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1128,
-								1128
+								1079,
+								1078
 							]
 						],
 						"settings":
@@ -663,14 +752,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 440.0,
+						"translation.y": 704.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 5,
 					"file": "Assets/Scripts/ComputerPlayer.cs",
 					"semi_transient": false,
 					"settings":
@@ -692,13 +781,15 @@
 							[
 								120
 							],
-							"syntax": "Packages/C#/C#.sublime-syntax"
+							"syntax": "Packages/C#/C#.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -781,7 +872,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 120.0,
+	"side_bar_width": 236.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

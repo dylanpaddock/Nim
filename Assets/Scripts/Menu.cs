@@ -46,4 +46,9 @@ public class Menu : MonoBehaviour {
         us.Unpause();
         gameObject.SetActive(false);
     }
+
+    public void EndGame(){
+        Debug.Log("Ending the game...");
+        Application.Quit();
+    }
 }
