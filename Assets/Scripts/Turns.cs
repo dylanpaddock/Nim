@@ -11,13 +11,13 @@ public class Turns : MonoBehaviour {
 
     private bool useComputer1 = false;//player 1 is a computer
     private bool useComputer2 = false;//player 2 is a computer
-    private int state;
+    private int state = 1;
     public Text opponentName;
 	// Use this for initialization
 	void Start () {
         displayText = GetComponent<Text>();
-        opponentName.text = "Change Opponent: easy AI";
-        state = 1; //easy AI as default opponent
+        state = 0;
+        toggleOpponent(); //easy AI as default opponent
 	}
 
 	// Update is called once per frame
