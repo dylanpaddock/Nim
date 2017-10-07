@@ -3,16 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public static class Utils {
-
-//	static Texture2D _whiteTexture;
-//    public static Texture2D WhiteTexture{
-//        get{
-//            if (_whiteTexture == null){
-//                _whiteTexture = new Texture2D()
-//            }
-//            return _whiteTexture;
-//        }
-//    }
+    //Utility functions for unit selection and converting between coordinate
+    //systems. Based on hyunkell.com/blog/rts-style-unit-selection-in-unity-5/
 
     public static void DrawScreenRect(Rect rect, Color color){
         GUI.color = color;

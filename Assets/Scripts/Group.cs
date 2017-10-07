@@ -4,16 +4,19 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Group : MonoBehaviour {
-    public List<GameObject> stonesList;
+    //A Group contains any number of stones, and lights up when it is selected.
+    //Only one group can be selected at a time.
+
+    public List<GameObject> stonesList; //A list of the stones in this group.
     private bool _isSelected;
-    public bool isSelected{
+    public bool isSelected{ //Is this group currently selected?
         get{return _isSelected;}
         set{_isSelected = value;}
     }
-    private Behaviour halo;
-    private Text sizeLabel;
+    private Behaviour halo; //Controls the glow effect on selection.
+    private Text sizeLabel; //Displays the current number of stones.
 
-	// Use this for initialization
+	//initialization
 	void Start () {
         halo = (Behaviour)GetComponent("Halo");
         halo.enabled = false;
@@ -22,7 +25,7 @@ public class Group : MonoBehaviour {
 
 	}
 
-	// Update is called once per frame
+	//Update is called once per frame
 	void Update () {
         if (_isSelected){
             halo.enabled = true;
@@ -34,10 +37,7 @@ public class Group : MonoBehaviour {
         }
 	}
 
-    public void ResetGroup(int i){
-        //instantiate i stones
-    }
-
+    //Tells the number of stones in the group.
     public int Size(){
         return stonesList.Count;
     }

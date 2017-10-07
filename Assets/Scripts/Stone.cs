@@ -3,22 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Stone : MonoBehaviour {
-    private bool _isSelected;
-    public bool isSelected{
-        get{return _isSelected;}
-        set{_isSelected = value;}
-    }
-    private Behaviour halo;
+    //A Stone is one game piece in the game of Nim. Belongs to a group. Lights
+    //up when selected. A player can select any number of stones from one group
+    //and then remove them.
 
-	// Use this for initialization
+    public bool isSelected{get; set;} //Is this stone currently selected?
+    private Behaviour halo; //Controls the glow effect for selection.
+
+	//initialization
 	void Start () {
+        //Store the Behavior to avoid calling each frame.
         halo = (Behaviour)GetComponent("Halo");
         halo.enabled = false;
 	}
 
-	// Update is called once per frame
+	//Update is called once per frame
 	void Update () {
-        if (_isSelected){
+        if (isSelected){
             halo.enabled = true;
         } else {
             halo.enabled = false;

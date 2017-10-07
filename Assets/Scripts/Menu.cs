@@ -4,16 +4,17 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Menu : MonoBehaviour {
-    Text displayText;
-    string current;
+    //Controls the game's menu for starting or ending a game.
+    Text displayText; //The menu's text object to display.
     public UnitSelector us;
     public Pieces pieces;
-    private bool first = true;
+    private bool first = true; //This is the first game.
 
 	// Use this for initialization
 	void Start () {
         displayText = GetComponent<Text>();
-        current = "Menu";
+        displayText.text = "Menu";
+
 	}
 
 	// Update is called once per frame
@@ -21,21 +22,17 @@ public class Menu : MonoBehaviour {
 
 	}
 
-    void OnGUI(){
-        displayText.text = current;
-    }
-
+    //Ends the current game, shows the winner, and displays the menu.
     public void EndGame(string s){
-        current = s;
+        displayText.text = s;
         us.Pause();
         gameObject.SetActive(true);
     }
 
+    //Starts the game, makes the stones, and hides the menu.
     public void StartGame(){
-        //start game: make stones, hide menu
-        Debug.Log("starting game");
 
-        //make stones: first game is default, the rest random.
+        //The first game is always the default layout and the rest random.
         if (first){
             pieces.ResetPieces(new List<int>() {5,3,4});
             first = false;
@@ -47,8 +44,8 @@ public class Menu : MonoBehaviour {
         gameObject.SetActive(false);
     }
 
-    public void EndGame(){
-        Debug.Log("Ending the game...");
+    //Closes the application.
+    public void CloseGame(){
         Application.Quit();
     }
 }
